@@ -1,0 +1,30 @@
+{
+  "name": "BudgetTracker",
+  "version": "1.0.0",
+  "description": "The user can add expenses or deposits to their budget with or without a connection.  When entering transactions offline, they should populate the totals when brought back online.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gus1919/BudgetTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gus1919/BudgetTracker/issues"
+  },
+  "homepage": "https://github.com/gus1919/BudgetTracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
