@@ -16,6 +16,7 @@ app.use(logger('dev'));
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 // connect to mongoose
 mongoose.connect(process.env.ATLAS_URI || "mongodb://localhost/budget", {
@@ -26,7 +27,7 @@ db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to Database'))
 
 // routes
-app.use(require(''));
+app.use(require('./routes/api'));
 
 // server creation
 app.listen(PORT);
