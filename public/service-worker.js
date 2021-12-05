@@ -1,13 +1,9 @@
 // Files Cache
-
-const { request } = require("express");
-
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
     "/styles.css",
-    //Database js
-    "/",
+    "/db.js",
     "/icons/icon-192x192.png",
     "/icons/icon-512x512.png",
     "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
@@ -78,7 +74,7 @@ self.addEventListener("fetch", event => {
             }
             return caches.open(DATA_CACHE_NAME).then(cache => {
                 return fetch(event.request).then(response => {
-                    return cache.put(event.request, respone.clone()).then(() =>{
+                    return cache.put(event.request, response.clone()).then(() =>{
                         return response;
                     });
                 });

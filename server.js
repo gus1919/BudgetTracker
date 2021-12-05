@@ -9,7 +9,7 @@ const compression = require('compression');
 
 // PORT
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3010;
 
 // middleware
 app.use(logger('dev'));
