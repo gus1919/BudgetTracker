@@ -2,7 +2,7 @@
 The user can add expenses or deposits to their budget with or without a connection.  When entering transactions offline, they should populate the totals when brought back online.
 
 ## Description
-> 
+> In this project, we worked on the back-end to enable a user to enter deposits and expenses while offline and have them load as soon as they are back online.  In doing so, we are adding functionality for those travelers who may not always be connected to the internet.
 
   ---
   ## Table of contents
@@ -16,14 +16,14 @@ The user can add expenses or deposits to their budget with or without a connecti
   ---
   ## Installation
    
-   >
+   > This is a standalone app and requires no installation through the heroku app.  However, if using the github repository please make sure to run npm install, have mongodb running and use npm run start.
 
   ---
   ## Use
 
-  >
+  > Here is a link to the deployed app: https://oetersbudgettracker.herokuapp.com/
 
-  > 
+  > Here is a link to the Github repository: https://github.com/gus1919/BudgetTracker
 
 
   ---
@@ -45,15 +45,13 @@ The user can add expenses or deposits to their budget with or without a connecti
 * nodemon
 * morgan
 * dotenv
-* path
-* body-parser
 * mongoose
 * mongodb
 * mongodb atlas
 * Heroku
 ---
   ## Issues
-> 
+> None known.
 
 ---
 
