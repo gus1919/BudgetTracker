@@ -26,6 +26,9 @@ The user can add expenses or deposits to their budget with or without a connecti
   > Here is a link to the Github repository: https://github.com/gus1919/BudgetTracker
 
 
+![BudgetTracker](https://user-images.githubusercontent.com/86876335/145482350-d67fc3f2-fae5-483c-b6e7-faf537eaa48a.png)
+
+
   ---
   ## Contributors
 
